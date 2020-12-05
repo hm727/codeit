@@ -1,0 +1,91 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+a:hover{
+    text-decoration: none;
+}
+
+.carousel-item{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+.carousel-item-01{
+    background-position: center center;
+}
+.carousel-item-02{
+    background-position: center top;
+}
+.carousel-item-03{
+    background-position: left center;
+}
+h3{
+    font-size: 32px;
+    margin-bottom: 0;
+}
+p{
+    font-size: 22px;
+    margin-top: 18px;
+    margin-bottom: 38px;
+}
+.carousel-caption .btn{
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #5900e7;
+    padding: 10px 30px;
+}
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: auto;
+    left: 0;
+    right: 0;
+}
+.carousel-inner{
+    z-index: 0;
+}
+.carousel-control-prev{
+    z-index: 1;
+}
+.alert{
+    margin-top: 50px;
+    margin-bottom: 16px;
+}
+.col-md-4{
+    padding-bottom: 20px;
+}
+.card-body{
+    padding:0;
+}
+.card-desc{
+    display: block;
+    padding-bottom: 20px;
+}
+.card-box{
+    height: 100%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+    position: relative;
+}
+.card-user{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    
+}
+.card-box h5{
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #4a4a4a;
+}
+.card-text{
+    padding: 10px;
+}
+.card-text .user-img{
+    padding-bottom: 0;
+}
+.card-text .user-name {
+    text-decoration: none;
+    font-size: 13px;
+    color: #4a4a4a;
+    vertical-align: middle;
+}
